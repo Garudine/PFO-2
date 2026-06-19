@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pastel Bloom Studio — Estudio creativo especializado en identidad visual, diseño UX/UI y experiencias digitales con alma.">
+  <title>Pastel Bloom Studio | Diseño creativo y experiencias digitales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <div class="page-bg" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+    <span class="blob blob--4"></span>
+  </div>
+
+  <header class="site-header" id="inicio">
+    <div class="container site-header__inner">
+      <a class="logo" href="#inicio" aria-label="Pastel Bloom Studio — Inicio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="16" fill="url(#logoGrad)"/>
+            <path d="M12 20c2-4 4-8 6-8s4 4 6 8" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="14" cy="15" r="2" fill="#fff"/>
+            <circle cx="22" cy="15" r="2" fill="#fff"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="4" y1="4" x2="32" y2="32">
+                <stop stop-color="#FFB5C5"/>
+                <stop offset="1" stop-color="#C5B4E3"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="logo__text">Pastel Bloom Studio</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="site-nav" id="nav-menu" aria-label="Navegación principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="#inicio">Inicio</a></li>
+          <li><a class="site-nav__link" href="#nosotros">Nosotros</a></li>
+          <li><a class="site-nav__link" href="#servicios">Servicios</a></li>
+          <li><a class="site-nav__link" href="#testimonios">Testimonios</a></li>
+          <li><a class="site-nav__link site-nav__link--cta" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">
+            <span class="hero__sparkle" aria-hidden="true">✦</span>
+            Estudio creativo · Barcelona & remoto
+          </p>
+          <h1 class="hero__title" id="hero-title">
+            Diseñamos experiencias que <em>florecen</em> en cada detalle
+          </h1>
+          <p class="hero__subtitle">
+            En Pastel Bloom Studio transformamos ideas en identidades visuales memorables,
+            interfaces cálidas y productos digitales con personalidad. Creamos mundos
+            donde la estrategia y la belleza conviven sin compromisos.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contacto">Iniciar un proyecto</a>
+            <a class="btn btn--secondary" href="#servicios">Explorar servicios</a>
+          </div>
+          <ul class="hero__stats" aria-label="Datos destacados del estudio">
+            <li><strong>120+</strong> proyectos entregados</li>
+            <li><strong>8</strong> años de experiencia</li>
+            <li><strong>14</strong> premios creativos</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-card__pattern"></div>
+            <svg class="hero-card__illustration" viewBox="0 0 400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración decorativa de formas orgánicas pastel">
+              <ellipse cx="200" cy="210" rx="160" ry="170" fill="#FFF8F0" opacity="0.9"/>
+              <circle cx="120" cy="140" r="55" fill="#FFB5C5" opacity="0.85"/>
+              <circle cx="280" cy="120" r="40" fill="#A8D8EA" opacity="0.9"/>
+              <circle cx="310" cy="260" r="65" fill="#B8E0D2" opacity="0.8"/>
+              <circle cx="90" cy="290" r="35" fill="#FFDAB9" opacity="0.85"/>
+              <path d="M160 180 Q200 120 240 180 T320 200" stroke="#C5B4E3" stroke-width="8" stroke-linecap="round" fill="none"/>
+              <path d="M100 320 Q200 360 300 310" stroke="#FFB5C5" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.7"/>
+              <rect x="170" y="195" width="60" height="80" rx="30" fill="#C5B4E3" opacity="0.6" transform="rotate(-12 200 235)"/>
+              <circle cx="200" cy="200" r="18" fill="#FFF8F0"/>
+              <path d="M192 200 L198 206 L210 192" stroke="#7B6FA8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="hero-card__badge">
+              <span>Creatividad</span>
+              <strong>sin límites</strong>
+            </div>
+          </div>
+          <span class="hero__float hero__float--1">◆</span>
+          <span class="hero__float hero__float--2">✿</span>
+          <span class="hero__float hero__float--3">◇</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="nosotros" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Sobre nosotros</p>
+          <h2 class="section-title" id="about-title">Donde la estrategia se viste de color</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__story reveal">
+            <p class="about__lead">
+              Pastel Bloom Studio nació en 2018 cuando tres diseñadores decidieron que lo digital
+              merecía más calidez. Desde un pequeño taller en el barrio de Gràcia, hemos crecido
+              hasta convertirnos en un estudio boutique con clientes en Europa y América Latina.
+            </p>
+            <p>
+              Nuestra propuesta de valor es simple y ambiciosa: combinar rigor estratégico con
+              una estética distintiva que conecte emocionalmente. No diseñamos para impresionar
+              en una reunión; diseñamos para que las personas recuerden, vuelvan y recomienden.
+            </p>
+            <p>
+              Lo que nos diferencia es nuestra obsesión por los detalles sensoriales — la tipografía
+              que respira, los microinteracciones que sorprenden, las paletas que cuentan historias
+              antes de leer una sola palabra. Cada proyecto es un jardín que cultivamos con paciencia
+              y entusiasmo genuino.
+            </p>
+          </div>
+
+          <aside class="about__values reveal reveal--delay" aria-label="Valores del estudio">
+            <article class="value-card">
+              <span class="value-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" fill="#FFB5C5" opacity="0.3"/><path d="M16 28c4-8 12-8 16 0" stroke="#7B4F6A" stroke-width="2.5" stroke-linecap="round"/><circle cx="18" cy="22" r="2" fill="#7B4F6A"/><circle cx="30" cy="22" r="2" fill="#7B4F6A"/></svg>
+              </span>
+              <h3>Empatía primero</h3>
+              <p>Escuchamos antes de proponer. Cada decisión de diseño nace de entender a quienes usarán el producto.</p>
+            </article>
+            <article class="value-card">
+              <span class="value-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="12" fill="#A8D8EA" opacity="0.35"/><path d="M16 24h16M24 16v16" stroke="#3D6B7A" stroke-width="2.5" stroke-linecap="round"/></svg>
+              </span>
+              <h3>Coherencia total</h3>
+              <p>Desde el logo hasta el último botón, mantenemos una voz visual unificada en cada punto de contacto.</p>
+            </article>
+            <article class="value-card">
+              <span class="value-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none"><path d="M24 6l4 12h12l-10 8 4 12-10-8-10 8 4-12-10-8h12z" fill="#B8E0D2" opacity="0.5" stroke="#4A7A6A" stroke-width="1.5"/></svg>
+              </span>
+              <h3>Excelencia artesanal</h3>
+              <p>Proyectos selectos, equipos dedicados y revisiones hasta que cada píxel esté en su lugar.</p>
+            </article>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section section--pattern" id="servicios" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <p class="section-eyebrow">Servicios</p>
+          <h2 class="section-title" id="services-title">Lo que hacemos con pasión</h2>
+          <p class="section-desc">Cuatro disciplinas, un solo objetivo: hacer que tu marca brille con autenticidad.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="28" fill="#FFB5C5" opacity="0.25"/>
+                <path d="M20 38c4-10 20-10 24 0" stroke="#7B4F6A" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="26" cy="28" r="3" fill="#7B4F6A"/>
+                <circle cx="38" cy="28" r="3" fill="#7B4F6A"/>
+                <path d="M32 14v8M32 42v8M14 32h8M42 32h8" stroke="#C5B4E3" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Branding & Identidad Visual</h3>
+            <p class="service-card__desc">
+              Logotipos, sistemas de color, tipografía y manuales de marca que definen quién eres
+              y cómo te perciben. Construimos identidades con alma y flexibilidad para crecer contigo.
+            </p>
+          </article>
+
+          <article class="service-card reveal reveal--delay">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <rect x="12" y="10" width="40" height="44" rx="8" fill="#A8D8EA" opacity="0.3"/>
+                <rect x="18" y="18" width="28" height="6" rx="3" fill="#3D6B7A"/>
+                <rect x="18" y="28" width="20" height="4" rx="2" fill="#3D6B7A" opacity="0.6"/>
+                <rect x="18" y="36" width="24" height="4" rx="2" fill="#3D6B7A" opacity="0.4"/>
+                <circle cx="46" cy="46" r="10" fill="#B8E0D2"/>
+                <path d="M42 46l3 3 6-6" stroke="#4A7A6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Diseño UX/UI</h3>
+            <p class="service-card__desc">
+              Interfaces intuitivas, accesibles y bellas. Investigamos, prototipamos y refinamos
+              cada flujo para que tus usuarios disfruten cada interacción con tu producto digital.
+            </p>
+          </article>
+
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <path d="M10 44 L32 16 L54 44 Z" fill="#FFDAB9" opacity="0.35" stroke="#9A6B4F" stroke-width="2"/>
+                <circle cx="32" cy="36" r="8" fill="#C5B4E3" opacity="0.6"/>
+                <path d="M28 36h8M32 32v8" stroke="#7B6FA8" stroke-width="2" stroke-linecap="round"/>
+                <ellipse cx="32" cy="50" rx="18" ry="4" fill="#FFB5C5" opacity="0.3"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Experiencias Digitales</h3>
+            <p class="service-card__desc">
+              Sitios web, landings y micrositios con motion design y narrativa visual.
+              Creamos experiencias inmersivas que convierten visitantes en comunidad.
+            </p>
+          </article>
+
+          <article class="service-card reveal reveal--delay-3">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="24" fill="#B8E0D2" opacity="0.25"/>
+                <path d="M20 32c0-6 5-12 12-12s12 6 12 12-5 12-12 12" stroke="#4A7A6A" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M32 20v24M24 32h16" stroke="#4A7A6A" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="32" cy="32" r="4" fill="#FFDAB9"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Estrategia Creativa</h3>
+            <p class="service-card__desc">
+              Workshops, auditorías de marca y dirección creativa para alinear equipos
+              y definir una visión clara antes de poner manos al diseño.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonios" aria-labelledby="testimonials-title">
+      <div class="testimonials__bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <p class="section-eyebrow">Testimonios</p>
+          <h2 class="section-title section-title--light" id="testimonials-title">Voces que nos inspiran</h2>
+          <p class="section-desc section-desc--light">Lo que dicen quienes confiaron en nosotros para dar forma a sus ideas.</p>
+        </div>
+
+        <div class="testimonials__grid">
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="testimonial-card__quote">
+              «Pastel Bloom Studio no solo rediseñó nuestra identidad: nos ayudó a redescubrir
+              quiénes éramos. El nuevo branding aumentó nuestro reconocimiento un 40% en seis meses
+              y el equipo interno finalmente se siente orgulloso de compartir cada pieza.»
+            </p>
+            <footer class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">ML</span>
+              <div>
+                <cite class="testimonial-card__name">María López</cite>
+                <span class="testimonial-card__role">Directora de Marketing · Verde Natura Cosmética</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card testimonial-card--featured reveal reveal--delay">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="testimonial-card__quote">
+              «Contratamos al estudio para la app de reservas de nuestro hotel boutique. La interfaz
+              es elegante, accesible y refleja exactamente la atmósfera acogedora que buscábamos.
+              Las reservas online crecieron un 65% tras el relanzamiento. Profesionales impecables.»
+            </p>
+            <footer class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">JR</span>
+              <div>
+                <cite class="testimonial-card__name">Javier Ruiz</cite>
+                <span class="testimonial-card__role">Fundador · Casa Mirador Hoteles</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card reveal reveal--delay-2">
+            <div class="testimonial-card__stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="testimonial-card__quote">
+              «El workshop de estrategia creativa fue revelador. Salimos con un roadmap claro,
+              un lenguaje visual coherente y un equipo alineado. Pastel Bloom tiene esa rareza
+              de combinar sensibilidad artística con pensamiento de negocio muy sólido.»
+            </p>
+            <footer class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">AC</span>
+              <div>
+                <cite class="testimonial-card__name">Ana Castillo</cite>
+                <span class="testimonial-card__role">CEO · Lumina EdTech</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <p class="section-eyebrow">Contacto</p>
+            <h2 class="section-title" id="contact-title">Cuéntanos tu próximo proyecto</h2>
+            <p class="contact__desc">
+              Estamos listos para escuchar tu idea. Completa el formulario y te responderemos
+              en un plazo máximo de 48 horas hábiles con una propuesta inicial.
+            </p>
+            <ul class="contact__details">
+              <li>
+                <span class="contact__detail-icon" aria-hidden="true">✉</span>
+                <a href="mailto:hola@pastelbloom.studio">hola@pastelbloom.studio</a>
+              </li>
+              <li>
+                <span class="contact__detail-icon" aria-hidden="true">☎</span>
+                <a href="tel:+34931234567">+34 931 234 567</a>
+              </li>
+              <li>
+                <span class="contact__detail-icon" aria-hidden="true">◎</span>
+                <span>Carrer de Verdi 42, 08012 Barcelona</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form reveal reveal--delay" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" required placeholder="Tu nombre completo">
+              <span class="form-error" id="error-nombre" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="tu@email.com">
+              <span class="form-error" id="error-email" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="asunto" required placeholder="¿En qué podemos ayudarte?">
+              <span class="form-error" id="error-asunto" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntanos sobre tu proyecto, plazos y objetivos..."></textarea>
+              <span class="form-error" id="error-mensaje" role="alert"></span>
+            </div>
+            <button class="btn btn--primary btn--full" type="submit">Enviar mensaje</button>
+            <p class="form-success" id="form-success" role="status" aria-live="polite" tabindex="-1" hidden>
+              ¡Gracias! Hemos recibido tu mensaje. Te contactaremos pronto.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a class="logo logo--footer" href="#inicio">
+          <span class="logo__mark" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="18" cy="18" r="16" fill="url(#logoGradFooter)"/>
+              <path d="M12 20c2-4 4-8 6-8s4 4 6 8" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="logoGradFooter" x1="4" y1="4" x2="32" y2="32">
+                  <stop stop-color="#FFB5C5"/>
+                  <stop offset="1" stop-color="#C5B4E3"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="logo__text">Pastel Bloom Studio</span>
+        </a>
+        <p class="site-footer__tagline">Diseño con alma para marcas que florecen.</p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Navegación secundaria">
+        <h3 class="site-footer__heading">Explorar</h3>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__social">
+        <h3 class="site-footer__heading">Redes sociales</h3>
+        <ul class="social-links">
+          <li>
+            <a href="https://instagram.com/pastelbloomstudio" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Pastel Bloom Studio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://behance.net/pastelbloomstudio" target="_blank" rel="noopener noreferrer" aria-label="Behance de Pastel Bloom Studio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h4a3 3 0 010 6H6V8zm0 8h4.5a3.5 3.5 0 000-7H6v7zM15 8h5M15 12h5M15 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+              Behance
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/pastelbloomstudio" target="_blank" rel="noopener noreferrer" aria-label="Dribbble de Pastel Bloom Studio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/><path d="M8 12c2-4 8-4 8 0M6 16c4-2 10-2 12 0" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+              Dribbble
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/company/pastelbloomstudio" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Pastel Bloom Studio">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="3" stroke="currentColor" stroke-width="2" fill="none"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 014 0v4M11 10v7" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="site-footer__contact">
+        <h3 class="site-footer__heading">Contacto</h3>
+        <address>
+          <a href="mailto:hola@pastelbloom.studio">hola@pastelbloom.studio</a><br>
+          <a href="tel:+34931234567">+34 931 234 567</a><br>
+          Carrer de Verdi 42, Barcelona
+        </address>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <div class="container site-footer__bottom-inner">
+        <p>&copy; 2026 Pastel Bloom Studio. Todos los derechos reservados.</p>
+        <p class="site-footer__legal">
+          <a href="#inicio">Política de privacidad</a>
+          <span aria-hidden="true">·</span>
+          <a href="#inicio">Términos de uso</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
