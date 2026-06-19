@@ -7,7 +7,7 @@
 | Nombre | Ivanna Agostina Verdejo de Rodt |
 | Carrera | Tecnicatura Superior en Desarrollo de Software a Distancia |
 | Materia | Desarrollo Front-End |
-| Trabajo | TP N° 2 — Prompt Engineering y Agentes de IA |
+| Trabajo | PFO N° 2 — Prompt Engineering en Agentes de IA |
 
 ---
 
